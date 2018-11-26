@@ -1,11 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router } from "react-router-dom"
-import Kennel from './components/Kennel'
+// import { BrowserRouter as Router } from "react-router-dom"
+import App from './components/TodoApp'
 import './index.css'
 
-ReactDOM.render(
-    <Router>
-        <Kennel />
-    </Router>
-    , document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
