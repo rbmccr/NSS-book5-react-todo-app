@@ -6,6 +6,10 @@ import TodoList from './todo-list/TodoList'
 
 class App extends Component {
 
+  componentDidMount() {
+    this.getToDos()
+  }
+ 
   state = {
     data: [],
     todoItem: ""
